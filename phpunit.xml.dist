@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <phpunit xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-         backupGlobals="false"
+         backupGlobals="true"
          backupStaticAttributes="false"
          colors="true"
          verbose="true"
@@ -12,7 +12,7 @@
          xsi:noNamespaceSchemaLocation="https://schema.phpunit.de/9.3/phpunit.xsd">
   <coverage>
     <include>
-      <directory suffix=".php">src/</directory>
+      <directory suffix=".php">src/</directory>https://duckduckgo.com/
     </include>
   </coverage>
   <testsuites>
